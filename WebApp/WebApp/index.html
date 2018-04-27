@@ -1,0 +1,183 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Bootstrap index</title>
+    <!-- Jquery minified Javascript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <!-- Latest compiled and minified bootstraps CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- Optional theme for bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+    <!-- Latest compiled and minified JavaScript of bootstrap -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- Open Sans font from GOOGLE-->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <!-- Simple peer JS -->
+    <script src="javascript/simplepeer.min.js"></script>
+    <!-- Phaser.IO JS -->
+    <script src="javascript/phaser.js"></script>
+    <!-- Website Own script and CSS -->
+    <script src="AppScript.js"></script>
+    <link rel="stylesheet" href="StyleSheet.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+</head>
+<body>
+    <div class="se-pre-con"></div>
+    <nav class="navbar navbar-inverse" style="border-radius: 0px;">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" style="width:auto;">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#" onclick="show('Home');">Motion Light</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li><a href="#" onclick="show('Home');">Home</a></li>
+                    <li class="usermode"><a href="#ServerList" onclick="show('ServerList');">Server List</a></li>
+                    <li class="usermode"><a href="#CreateServer" onclick="show('CreateServer');">Create Server</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="guestmode"><a href="#SignUp" onclick="show('SignUp');"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                    <li class="guestmode"><a href="#Login" onclick="show('Login');"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                    <li class="usermode"><a href="#" onclick="LogOut();">Log-Out</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Home page HTML-->
+    <div id="Home" class="page" style="">
+        <div class="container-fluid">
+            <div class="col-sm-12 col-md-12 col-lg-12 ">
+                <img class="center-block" style="width:auto;height:50vh; border:solid; border-color:black; " src="assets/gameplaypic.png" />
+            </div>
+
+            <div class="col-sm-12" style="background-color: rgba(0, 0, 0, 0.55); border-radius: 15px; margin-top: 25px; margin-bottom: 45px; color: #cacaca">
+                <h1 class="center-block" style="text-align: center; font-size:48px;">Motion Light</h1>
+                <p style="font-size:24px;">
+                    Motion Light is a multiplayer game inspired by the game Snake and the movie TRON. <br />
+                    The goal is to block the other player, and be the last one to survive. <br />
+                    You are controlling your bike using the Arrows keys in the keyboard ( ↑ ↓ ← →). <br />
+                    The <b style="color:#0094ff">blue bike</b> is the player who openned the server, and the <b style="color:#ff0000">red bike</b> is the player who joined.
+                </p>
+            </div>
+
+        </div>
+    </div>
+    <!-- Server list page HTML-->
+    <div id="ServerList" class="page" style="display:none">
+        <div class="waiting_model">
+            <div style="background-color:white;min-width:500px; width:50%;margin: 25vh auto;text-align:center;border-radius:5px;">
+                <h1> Waiting for Server to Accpet</h1>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <br />
+            <table class="table table-hover" style="background-color:rgba(255, 255, 255, 0.70); border-radius:10px 10px 0px 0px;">
+                <thead>
+                    <tr>
+                        <th style="width: 90%"><h2>Server Name / Competitor</h2></th>
+                        <th style="width: 10%"></th>
+                    </tr>
+                </thead>
+                <tbody class="serverlist" style="background-color:rgba(255, 255, 255, 0.33)"></tbody>
+            </table>
+        </div>
+    </div>
+    <!-- Create server page HTML-->
+    <div id="CreateServer" class="page" style="display:none">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-md-5 col-lg-4">
+                    <h2>Create Server</h2>
+                    <p>
+                        Here you can create server by choosing it's name, and just wait for player to join
+                        <br>
+                    </p>
+                </div>
+                <div class="col-sm-6 col-md-7 col-lg-8">
+                    Name:<br>
+                    <input type="text" name="servername" id="name_createserver"><br>
+                    <button type="button" class="btn btn-success" id="btn_createserver">Create Server</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Login page HTML-->
+    <div id="Login" class="page" style="display:none">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-md-5 col-lg-4">
+                    <h2>Login</h2>
+                    <p>
+                        <br>
+                        If you don't have a user, go <a href="#" onclick="show('SignUp');">here</a> to create one.
+                    </p>
+                </div>
+                <div class="col-sm-6 col-md-7 col-lg-8">
+                    Username:<br>
+                    <input type="text" placeholder="Username" name="username" id="username_login"><br>
+                    Password:<br>
+                    <input type="password" placeholder="Password" name="psw" id="password_login">
+                    <button type="button" class="btn btn-success" id="btn_login">Login</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Sign up page HTML-->
+    <div id="SignUp" class="page" style="display:none">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-md-5 col-lg-4">
+                    <h2>Sign Up</h2>
+                    <p>
+                        <br>
+                        If you have a user, go <a href="#" onclick="show('Login');">here</a> to login.
+                    </p>
+                </div>
+                <br />
+                <div class="col-sm-6 col-md-7 col-lg-8">
+                    Username:<br>
+                    <input type="text" placeholder="Username" name="username" id="username_signup"><br>
+                    Password:<br>
+                    <input type="password" placeholder="Password" name="psw" id="password_signup">
+                    <label><b>Email</b></label>
+                    <input type="email" placeholder="Email" name="email" id="email_signup" />
+                    <label><b>Country</b></label>
+                    <select id="country_signup" class="countryList"></select>
+                    <button type="button" class="btn btn-success" id="btn_signup">Sign Up</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Lobby page HTML-->
+    <div id="Lobby" class="page fullscreen" style="display:none; height: calc(100% - 72px - 20px);">
+        <div class="answers_model">
+            <table class="table table-hover" style="background-color:white;min-width:500px; width:50%;margin: 52px auto;">
+                <thead>
+                    <tr>
+                        <th style="width: 70%"><h2>Join Offers</h2></th>
+                        <th style="width: 15%"></th>
+                        <th style="width: 15%"><a style="float:right" href="#" onclick="show('Home')">X</a></th>
+                    </tr>
+                </thead>
+                <tbody class="answerlist">
+                    <tr></tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="container-fluid" style="height: 100%">
+            <div class="row" style="height: 100%;">
+                <div class="col-sm-12 col-md-12 col-lg-12" style="height: 100%;">
+                    <div id="game-area" style="height:100%; width:100%"></div>
+                    <!--<canvas style="height: 100%; width:100%; background-color: black; margin-bottom: 20px;border-radius:5px;"></canvas>-->
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+

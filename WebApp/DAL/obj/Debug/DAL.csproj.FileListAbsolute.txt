@@ -1,0 +1,37 @@
+F:\WebApp\DAL\bin\Debug\DAL.pdb
+F:\WebApp\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+F:\WebApp\DAL\obj\Debug\DAL.pdb
+F:\WebApp\DAL\bin\Debug\DAL.dll.config
+F:\WebApp\DAL\bin\Debug\DAL.dll
+F:\WebApp\DAL\obj\Debug\DAL.dll
+C:\Users\Daniel Kariv\Desktop\Projects\WebApp\DAL\bin\Debug\DAL.dll.config
+C:\Users\Daniel Kariv\Desktop\Projects\WebApp\DAL\bin\Debug\DAL.dll
+C:\Users\Daniel Kariv\Desktop\Projects\WebApp\DAL\bin\Debug\DAL.pdb
+C:\Users\Daniel Kariv\Desktop\Projects\WebApp\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\Daniel Kariv\Desktop\Projects\WebApp\DAL\obj\Debug\DAL.dll
+C:\Users\Daniel Kariv\Desktop\Projects\WebApp\DAL\obj\Debug\DAL.pdb
+F:\PostingApp\WebApp\DAL\bin\Debug\DAL.dll.config
+F:\PostingApp\WebApp\DAL\bin\Debug\DAL.dll
+F:\PostingApp\WebApp\DAL\bin\Debug\DAL.pdb
+F:\PostingApp\WebApp\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+F:\PostingApp\WebApp\DAL\obj\Debug\DAL.dll
+F:\PostingApp\WebApp\DAL\obj\Debug\DAL.pdb
+F:\WebRTCApp\WebApp\DAL\bin\Debug\DAL.dll.config
+F:\WebRTCApp\WebApp\DAL\bin\Debug\DAL.dll
+F:\WebRTCApp\WebApp\DAL\bin\Debug\DAL.pdb
+F:\WebRTCApp\WebApp\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+F:\WebRTCApp\WebApp\DAL\obj\Debug\DAL.dll
+F:\WebRTCApp\WebApp\DAL\obj\Debug\DAL.pdb
+I:\WebRTCApp\WebApp\DAL\bin\Debug\DAL.dll.config
+I:\WebRTCApp\WebApp\DAL\bin\Debug\DAL.dll
+I:\WebRTCApp\WebApp\DAL\bin\Debug\DAL.pdb
+I:\WebRTCApp\WebApp\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+I:\WebRTCApp\WebApp\DAL\obj\Debug\DAL.dll
+I:\WebRTCApp\WebApp\DAL\obj\Debug\DAL.pdb
+D:\USB2\WebRTCApp\WebApp\DAL\bin\Debug\DAL.dll.config
+D:\USB2\WebRTCApp\WebApp\DAL\bin\Debug\DAL.dll
+D:\USB2\WebRTCApp\WebApp\DAL\bin\Debug\DAL.pdb
+D:\USB2\WebRTCApp\WebApp\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+D:\USB2\WebRTCApp\WebApp\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\USB2\WebRTCApp\WebApp\DAL\obj\Debug\DAL.dll
+D:\USB2\WebRTCApp\WebApp\DAL\obj\Debug\DAL.pdb

@@ -1,0 +1,44 @@
+F:\WebApp\BL\bin\Debug\BL.dll
+F:\WebApp\BL\bin\Debug\BL.pdb
+F:\WebApp\BL\bin\Debug\DAL.pdb
+F:\WebApp\BL\obj\Debug\BL.csprojResolveAssemblyReference.cache
+F:\WebApp\BL\obj\Debug\BL.dll
+F:\WebApp\BL\obj\Debug\BL.pdb
+F:\WebApp\BL\bin\Debug\DAL.dll
+C:\Users\Daniel Kariv\Desktop\Projects\WebApp\BL\bin\Debug\BL.dll
+C:\Users\Daniel Kariv\Desktop\Projects\WebApp\BL\bin\Debug\BL.pdb
+C:\Users\Daniel Kariv\Desktop\Projects\WebApp\BL\bin\Debug\DAL.dll
+C:\Users\Daniel Kariv\Desktop\Projects\WebApp\BL\bin\Debug\DAL.pdb
+C:\Users\Daniel Kariv\Desktop\Projects\WebApp\BL\obj\Debug\BL.csprojResolveAssemblyReference.cache
+C:\Users\Daniel Kariv\Desktop\Projects\WebApp\BL\obj\Debug\BL.dll
+C:\Users\Daniel Kariv\Desktop\Projects\WebApp\BL\obj\Debug\BL.pdb
+F:\PostingApp\WebApp\BL\bin\Debug\BL.dll
+F:\PostingApp\WebApp\BL\bin\Debug\BL.pdb
+F:\PostingApp\WebApp\BL\bin\Debug\DAL.dll
+F:\PostingApp\WebApp\BL\bin\Debug\DAL.pdb
+F:\PostingApp\WebApp\BL\obj\Debug\BL.csprojResolveAssemblyReference.cache
+F:\PostingApp\WebApp\BL\obj\Debug\BL.dll
+F:\PostingApp\WebApp\BL\obj\Debug\BL.pdb
+F:\WebRTCApp\WebApp\BL\bin\Debug\BL.dll
+F:\WebRTCApp\WebApp\BL\bin\Debug\BL.pdb
+F:\WebRTCApp\WebApp\BL\bin\Debug\DAL.dll
+F:\WebRTCApp\WebApp\BL\bin\Debug\DAL.pdb
+F:\WebRTCApp\WebApp\BL\obj\Debug\BL.csprojResolveAssemblyReference.cache
+F:\WebRTCApp\WebApp\BL\obj\Debug\BL.dll
+F:\WebRTCApp\WebApp\BL\obj\Debug\BL.pdb
+I:\WebRTCApp\WebApp\BL\bin\Debug\BL.dll
+I:\WebRTCApp\WebApp\BL\bin\Debug\BL.pdb
+I:\WebRTCApp\WebApp\BL\bin\Debug\DAL.dll
+I:\WebRTCApp\WebApp\BL\bin\Debug\DAL.pdb
+I:\WebRTCApp\WebApp\BL\obj\Debug\BL.csprojResolveAssemblyReference.cache
+I:\WebRTCApp\WebApp\BL\obj\Debug\BL.dll
+I:\WebRTCApp\WebApp\BL\obj\Debug\BL.pdb
+D:\USB2\WebRTCApp\WebApp\BL\bin\Debug\BL.dll
+D:\USB2\WebRTCApp\WebApp\BL\bin\Debug\BL.pdb
+D:\USB2\WebRTCApp\WebApp\BL\bin\Debug\DAL.dll
+D:\USB2\WebRTCApp\WebApp\BL\bin\Debug\DAL.pdb
+D:\USB2\WebRTCApp\WebApp\BL\bin\Debug\DAL.dll.config
+D:\USB2\WebRTCApp\WebApp\BL\obj\Debug\BL.csprojResolveAssemblyReference.cache
+D:\USB2\WebRTCApp\WebApp\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache
+D:\USB2\WebRTCApp\WebApp\BL\obj\Debug\BL.dll
+D:\USB2\WebRTCApp\WebApp\BL\obj\Debug\BL.pdb
